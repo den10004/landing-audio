@@ -1,9 +1,12 @@
-import { defineConfig } from 'vite';
-
-export default defineConfig({
-  base: './',
+export default {
+  root: './',
   build: {
+    outDir: 'dist',
+    minify: 'esbuild',
     sourcemap: false,
-    assetsInlineLimit: 4096,
+    assetsInlineLimit: 4096, 
   },
-});
+  base: './',
+  
+}
+
