@@ -5,3 +5,5 @@ Promise.all([
   document.getElementById('header-placeholder').innerHTML = header;
   document.getElementById('footer-placeholder').innerHTML = footer;
 });
+
+
