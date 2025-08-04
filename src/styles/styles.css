@@ -1,0 +1,15 @@
+
+@import "./normalize.css";
+
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1920px;
+  background: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
