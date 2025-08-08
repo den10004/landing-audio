@@ -33,6 +33,9 @@
 .main>div>h1 {
     margin: 100px 0 40px 0;
     color: var(--color-white);
+    line-height: 1.2;
+    text-align: left;
+    font-size: 60px;
 }
 
 .main>div>h1>span {
@@ -44,6 +47,11 @@
     color: var(--color-white);
 }
 
+@media screen and (max-width:1700px) {
+    .main>div>h1 {
+        font-size: 48px;
+    }
+}
 
 @media screen and (max-width:1400px) {
     .main {
@@ -75,6 +83,7 @@
         min-height: 598px;
     }
 
+
     .main__logo>a>img {
         width: 190px;
     }
@@ -85,6 +94,7 @@
 
     .main>div>h1 {
         margin: 78px 0 40px 0;
+        font-size: 36px;
     }
 
     .main>div>p {
@@ -146,6 +156,7 @@
 
     .main>div>h1 {
         margin: 47px 0 24px 0;
+        font-size: 24px;
     }
 
     .main>div>p {

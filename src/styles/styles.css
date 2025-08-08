@@ -1,6 +1,7 @@
 @import "./main.css";
-@import "./footer.css";
 @import "./header.css";
+@import "./studios.css";
+@import "./footer.css";
 @import "./normalize.css";
 
 @font-face {
@@ -112,7 +113,7 @@ button {
 
 @media screen and (max-width:425px) {
   .font-h1 {
-    font-size: 27px;
+    font-size: 23px;
   }
 
   .font-p {
