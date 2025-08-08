@@ -1,0 +1,125 @@
+.system {
+    margin-top: 185px;
+    position: relative;
+}
+
+.system__text>h2 {
+    margin-bottom: 40px;
+}
+
+.system__text>p {
+    font-size: 18px;
+    line-height: 1.333;
+    text-align: left;
+    width: 553px;
+}
+
+.system>picture {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    width: 1070px;
+}
+
+.rectangle {
+    position: absolute;
+    top: 100px;
+    right: 270px;
+    width: 510px;
+    height: 800px;
+    padding: 6px 0 0 20px;
+    border: 15px solid var(--color-blue);
+    color: var(--color-white);
+    font-size: 99px;
+    line-height: 1.2;
+    font-weight: bold;
+    background-color: transparent;
+    box-sizing: border-box;
+}
+
+
+
+@media screen and (max-width:1700px) {
+    .system>picture {
+        top: -46px;
+        width: 647px;
+    }
+
+    .rectangle {
+        top: 10px;
+        right: 129px;
+        width: 460px;
+        height: 705px;
+        padding: 29px 0 0 30px;
+        font-size: 80px;
+    }
+}
+
+@media screen and (max-width:1300px) {
+    .system {
+        margin-top: 90px;
+    }
+
+    .system__text>p {
+        font-size: 16px;
+        width: 410px;
+        line-height: 1.5;
+    }
+
+    .system>picture {
+        top: 12px;
+        width: 593px;
+    }
+
+    .rectangle {
+        top: 67px;
+        right: 84px;
+        width: 460px;
+        height: 593px;
+        padding: 47px 0 0 35px;
+        font-size: 48px;
+        border: none;
+        border-left: 15px solid var(--color-blue);
+    }
+
+    .rectangle::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 70%;
+        height: 15px;
+        background: linear-gradient(to right, var(--color-blue) 0%, #004D99 50%, transparent 100%);
+    }
+}
+
+@media screen and (max-width:1250px) {
+    .system>picture {
+        width: 40%;
+    }
+
+    .rectangle {
+        top: 30px;
+        right: 190px;
+        width: 300px;
+        height: 528px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .system>picture {
+        width: 100%;
+        position: relative;
+    }
+
+    .rectangle {
+        top: 30px;
+        right: 190px;
+        width: 300px;
+        height: 528px;
+    }
+
+    .system__text>p {
+        width: 100%;
+    }
+}
