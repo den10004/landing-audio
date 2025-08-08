@@ -1,0 +1,160 @@
+.sound {
+    margin-top: 160px;
+    position: relative;
+}
+
+
+
+.oscar-text {
+    margin-top: 32px;
+    width: 95%;
+}
+
+
+.oscar-statue {
+    width: 259px;
+    position: absolute;
+    top: -60px;
+    left: 892px;
+}
+
+.sound-down {
+    margin-top: 10px;
+}
+
+.sound>p {
+    margin-top: 43px;
+    width: 805px;
+}
+
+@media screen and (max-width: 1700px) {
+    .oscar-statue {
+        top: -43px;
+        width: 201px;
+        left: 663px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .sound {
+        margin-top: 95px;
+    }
+
+    .sound-down {
+        margin-top: 16px;
+    }
+
+    .sound>p {
+        font-size: 20px !important;
+        width: 600px;
+    }
+
+    .oscar-text {
+        width: 100%;
+    }
+
+    .sound>p {
+        margin-top: 16px;
+    }
+
+    .oscar-statue {
+        left: 708px;
+    }
+}
+
+
+@media screen and (max-width: 1300px) {
+    .sound {
+        margin-top: 134px;
+    }
+
+    .oscar-statue {
+        left: 469px;
+        top: -31px;
+        width: 141px;
+    }
+
+    .oscar-text {
+        margin-top: 10px;
+    }
+
+    .sound-down {
+        margin-top: 10px;
+    }
+
+    .sound>p {
+        margin-top: 24px;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    .sound>p {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .oscar-statue {
+        left: auto;
+        right: 22%;
+        top: -6px;
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .oscar-statue {
+        width: 80px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .sound {
+        margin-top: 62px;
+    }
+
+    .oscar-statue {
+        right: 20%;
+    }
+
+    .sound>p {
+        width: 100%;
+    }
+
+    .sound>p>br {
+        display: none;
+    }
+
+    .sound-down {
+        margin-top: 2px;
+    }
+
+    .sound>p {
+        font-size: 15px !important;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .oscar-text {
+        margin-top: 10px;
+    }
+
+    .oscar-statue {
+        top: 0px;
+        width: 53px;
+        right: 22%;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .oscar-statue {
+        right: 21%;
+    }
+}
+
+@media screen and (max-width:335px) {
+    .oscar-statue {
+        right: 20%;
+    }
+}

@@ -5,6 +5,7 @@
     <title>Главная</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/src/styles/styles.css" />
+    <link rel="stylesheet" href="/src/styles/swiper-bundle.min.css" />
   </head>
   <body>
     <main class="main">
@@ -91,9 +92,114 @@
           </div>
         </div>
       </section>
+
+      <section class="sound">
+        <h2 class="font-h1">11 премий</h2>
+
+        <picture>
+          <source
+            media="(max-width: 1300px)"
+            srcset="./src/images/oskar2-min.webp"
+            alt="оскар"
+          />
+          <img class="oscar-text" src="./src/images/oskar2.webp" alt="оскар" />
+        </picture>
+
+        <picture>
+          <source
+            media="(max-width: 1300px)"
+            srcset="./src/images/oscar-min.webp"
+            alt="статуя оскар"
+          />
+          <img
+            class="oscar-statue"
+            src="./src/images/oscar.webp"
+            alt="статуя оскар"
+          />
+        </picture>
+
+        <h2 class="font-h1 sound-down">за лучший звук</h2>
+
+        <p class="font-p">
+          Фильмы, получившие премию «Оскар» за звук — все они были сведены и
+          смонтированы на динамиках
+          <span style="white-space: nowrap">M&K Sound</span>
+        </p>
+
+        <div class="sound__slider-wrap">
+          <div class="swiper sound__slider">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide sound__films">
+                <img src="./src/images/film1.webp" alt="Властелин колец" />
+                <span>Властелин колец</span>
+              </div>
+              <div class="swiper-slide sound__films">
+                <img src="./src/images/film2.webp" alt="Перл Харбор" />
+                <span>Перл Харбор</span>
+              </div>
+              <div class="swiper-slide sound__films">
+                <img
+                  src="./src/images/film3.webp"
+                  alt="Пираты карибского моря"
+                />
+                <span
+                  >Пираты карибского моря.<br />
+                  Проклятие черной жемчужины</span
+                >
+              </div>
+              <div class="swiper-slide sound__films">
+                <img src="./src/images/film4.webp" alt="Звёздные войны" />
+                <span>Звездные войны. Эпизод 1</span>
+              </div>
+              <div class="swiper-slide sound__films">
+                <img src="./src/images/film5.webp" alt="Звёздные войны" />
+                <span>Звездные войны. Эпизод 2</span>
+              </div>
+
+              <div class="swiper-slide sound__films">
+                <img src="./src/images/film6.webp" alt="Звёздные войны" />
+                <span>Звездные войны. Эпизод 3</span>
+              </div>
+              <div class="swiper-slide sound__films">
+                <img src="./src/images/film7.webp" alt="Кинг-Конг" />
+                <span>Кинг-Конг</span>
+              </div>
+              <div class="swiper-slide sound__films">
+                <img src="./src/images/film8.webp" alt="Чикаго" />
+                <span>Чикаго</span>
+              </div>
+              <div class="swiper-slide sound__films">
+                <img src="./src/images/film9.webp" alt="Суперсемейка" />
+                <span>Суперсемейка</span>
+              </div>
+              <div class="swiper-slide sound__films">
+                <img
+                  src="./src/images/film10.webp"
+                  alt="Падение чёрного ястреба"
+                />
+                <span>Падение чёрного ястреба</span>
+              </div>
+              <div class="swiper-slide sound__films">
+                <img src="./src/images/film11.webp" alt="Wall.E" />
+                <span>Wall.E</span>
+              </div>
+            </div>
+          </div>
+          <div class="btn-slider-block">
+            <button class="cardsSlider-button-prev">
+              <div class="arrow arrow-left"></div>
+            </button>
+            <button class="cardsSlider-button-next">
+              <div class="arrow arrow-right"></div>
+            </button>
+          </div>
+        </div>
+      </section>
     </div>
     <div id="footer-placeholder"></div>
   </body>
+  <script src="./src/scripts/swiper-bundle.min.js"></script>
+  <script src="./src/scripts/slider.js"></script>
   <script type="module" src="./src/scripts/main.js"></script>
   <script src="./src/scripts/variables.js"></script>
 
