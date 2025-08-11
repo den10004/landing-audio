@@ -5,6 +5,7 @@
 @import "./swiper.css";
 @import "./system.css";
 @import "./specifications.css";
+@import "./comments.css";
 @import "./footer.css";
 @import "./normalize.css";
 
@@ -51,7 +52,7 @@ body {
   --color-blueActive: #097cb8;
   --color-white: rgb(255, 255, 255);
   --color-table: #f2f5f9;
-
+  --color-purple: #000043;
 
 
 }

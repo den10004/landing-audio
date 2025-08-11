@@ -26,8 +26,8 @@
 .arrow {
     width: 35px;
     height: 35px;
-    border-top: 2px solid black;
-    border-right: 2px solid black;
+    border-top: 2px solid var(--color-blue);
+    border-right: 2px solid var(--color-blue);
 }
 
 .arrow-right {
@@ -84,8 +84,8 @@
     .arrow {
         width: 25px;
         height: 25px;
-        border-top: 2px solid black;
-        border-right: 2px solid black;
+        border-top: 2px solid var(--color-blue);
+        border-right: 2px solid var(--color-blue);
     }
 }
 

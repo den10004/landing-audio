@@ -29,3 +29,13 @@ var swiper = new Swiper(".sound__slider", {
     nextEl: ".cardsSlider-button-next",
   },
 });
+
+var swiper = new Swiper(".comments__slider", {
+  loop: true,
+  slidesPerView: 1,
+
+  navigation: {
+    prevEl: ".comments-button-prev",
+    nextEl: ".comments-button-next",
+  },
+});
