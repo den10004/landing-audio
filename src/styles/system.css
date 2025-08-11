@@ -27,9 +27,11 @@
     right: auto;
 }
 
+/*
+
 .system__picture>picture {
     position: absolute;
-}
+}*/
 
 .rectangle {
     position: absolute;
@@ -165,6 +167,10 @@
 
     .system__text {
         width: 100%;
+
+    }
+
+    .system__text>h2 {
         max-width: 805px;
         margin: 0 auto;
         padding: 0 20px;
@@ -172,6 +178,9 @@
 
     .system__text>p {
         padding-right: 0;
+        max-width: 805px;
+        margin: 0 auto;
+        padding: 0 20px;
     }
 
     .system__picture {
@@ -187,10 +196,6 @@
         right: 190px;
         width: 300px;
         height: 528px;
-    }
-
-    .system__text>p {
-        width: 100%;
     }
 
     .rectangle {
