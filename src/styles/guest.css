@@ -1,0 +1,21 @@
+.guest {
+    margin-top: 160px;
+}
+
+
+.guest__content {
+    margin-top: 70px;
+    display: flex;
+}
+
+.guest__card>img {
+    width: 100%;
+}
+
+.guest__left {
+    width: 50%;
+}
+
+.guest__right {
+    width: 50%;
+}
