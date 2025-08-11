@@ -61,6 +61,11 @@ body {
 }
 
 
+.container2 {
+  margin-left: calc((100% - 1530px) / 2);
+  margin-right: 0;
+  box-sizing: border-box;
+}
 
 button {
   cursor: pointer;
@@ -70,7 +75,7 @@ button {
 .font-h1 {
   line-height: 1.2;
   text-align: left;
-  font-size: 60px;
+  font-size: 59px;
   /*
     font-size: 22px;
     -moz-transform: matrix(2.71722037219466, 0, 0, 2.71722037219466, 0, 0);
@@ -91,6 +96,10 @@ button {
     max-width: 1170px;
   }
 
+  .container2 {
+    margin-left: calc((100% - 1140px) / 2);
+  }
+
   .font-h1 {
     font-size: 48px;
   }
@@ -100,9 +109,15 @@ button {
   }
 }
 
+
+
 @media screen and (max-width:1300px) {
   .container {
     max-width: 805px;
+  }
+
+  .container2 {
+    margin-left: calc((100% - 770px) / 2);
   }
 
   .font-h1 {
@@ -113,6 +128,14 @@ button {
     font-size: 20px;
   }
 }
+
+@media screen and (max-width:1000px) {
+  .container2 {
+    max-width: 100%;
+    margin-left: 0;
+  }
+}
+
 
 @media screen and (max-width:425px) {
   .font-h1 {
