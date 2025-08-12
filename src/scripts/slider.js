@@ -30,7 +30,7 @@ var swiper = new Swiper(".sound__slider", {
   },
 });
 
-var swiper = new Swiper(".comments__slider", {
+var swiper1 = new Swiper(".comments__slider", {
   loop: true,
   slidesPerView: 1,
 
