@@ -423,13 +423,33 @@
     <section class="guest">
       <div class="container">
         <h2 class="font-h1">Вам будет, чем удивить гостей</h2>
-        <p class="font-p">Станьте главным героем вечера</p>
+        <p>Станьте главным героем вечера</p>
       </div>
 
       <div class="guest__content">
-        <div class="guest__left">
+        <div class="guest__left r">
           <div class="guest__card guest__card-b">
-            <img src="./src/images/01.webp" alt="фильмы" />
+            <picture>
+              <source
+                media="(max-width: 500px)"
+                srcset="./src/images/01-min.webp"
+              />
+              <source
+                media="(max-width: 1300px)"
+                srcset="./src/images/01-1300.webp"
+              />
+              <source
+                media="(max-width: 1400px)"
+                srcset="./src/images/01-1400.webp"
+              />
+
+              <img
+                class="guest__card-01"
+                src="./src/images/01.webp"
+                alt="фильмы"
+              />
+            </picture>
+
             <div class="guest__block guest__card-r">
               <div>01/ Фильмы</div>
               <p>
@@ -438,8 +458,27 @@
               </p>
             </div>
           </div>
-          <div class="guest__card guest__card-w">
-            <img src="./src/images/03.webp" alt="караоке" />
+          <div class="guest__card guest__card-w move-down">
+            <picture>
+              <source
+                media="(max-width: 500px)"
+                srcset="./src/images/03-min.webp"
+              />
+              <source
+                media="(max-width: 1300px)"
+                srcset="./src/images/03-1300.webp"
+              />
+              <source
+                media="(max-width: 1400px)"
+                srcset="./src/images/03-1400.webp"
+              />
+
+              <img
+                class="guest__card-03"
+                src="./src/images/03.webp"
+                alt="караоке"
+              />
+            </picture>
             <div class="guest__block guest__card-r">
               <div>03/ Караоке</div>
               <p>
@@ -449,9 +488,28 @@
             </div>
           </div>
         </div>
-        <div class="guest__right">
-          <div class="guest__card guest__card-w">
-            <img src="./src/images/02.webp" alt="игры" />
+        <div class="guest__right r">
+          <div class="guest__card guest__card-w move-up">
+            <picture>
+              <source
+                media="(max-width: 500px)"
+                srcset="./src/images/02-min.webp"
+              />
+              <source
+                media="(max-width: 1300px)"
+                srcset="./src/images/02-1300.webp"
+              />
+              <source
+                media="(max-width: 1400px)"
+                srcset="./src/images/02-1400.webp"
+              />
+
+              <img
+                class="guest__card-02"
+                src="./src/images/02.webp"
+                alt="игры"
+              />
+            </picture>
             <div class="guest__block guest__card-l">
               <div>02/ Игры</div>
               <p>
@@ -461,7 +519,26 @@
             </div>
           </div>
           <div class="guest__card guest__card-b">
-            <img src="./src/images/04.webp" alt="спортивные трансляции" />
+            <picture>
+              <source
+                media="(max-width: 500px)"
+                srcset="./src/images/04-min.webp"
+              />
+              <source
+                media="(max-width: 1300px)"
+                srcset="./src/images/04-1300.webp"
+              />
+              <source
+                media="(max-width: 1400px)"
+                srcset="./src/images/04-1400.webp"
+              />
+
+              <img
+                class="guest__card-04"
+                src="./src/images/04.webp"
+                alt="спортивные трансляции"
+              />
+            </picture>
             <div class="guest__block guest__card-l">
               <div>04/ Спортивные трансляции</div>
               <p>
@@ -490,9 +567,15 @@
               >
             </p>
           </div>
+          <img
+            src="./src/images/Miller&Kreisel Movie 5.1-min.webp"
+            alt="Miller&Kreisel Movie 5.1"
+          />
         </div>
       </div>
     </section>
+
+    <section>sdsd</section>
 
     <div id="footer-placeholder"></div>
   </body>

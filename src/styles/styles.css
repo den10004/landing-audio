@@ -118,6 +118,19 @@ button {
   background-color: var(--color-white);
 }
 
+
+picture {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+picture img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 @media screen and (max-width:1700px) {
   .container {
     max-width: 1170px;
