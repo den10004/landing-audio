@@ -56,6 +56,7 @@ body {
   --color-blueActive: #097cb8;
   --color-white: rgb(255, 255, 255);
   --color-table: #f2f5f9;
+  --color-label: #c5cad2;
   --color-purple: #000043;
 
 
@@ -133,6 +134,20 @@ picture img {
   height: auto;
   display: block;
 }
+
+input {
+  background: var(--color-table);
+  border: none;
+  padding-left: 50px;
+  font-family: "Roboto", "Arial", sans-serif;
+  box-sizing: border-box;
+
+}
+
+input::placeholder {
+  color: var(--color-label);
+}
+
 
 @media screen and (max-width:1700px) {
   .container {

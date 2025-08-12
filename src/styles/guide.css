@@ -1,1 +1,67 @@
-.guide {}
+.guide {
+    margin-top: 165px;
+}
+
+.guide__content {
+    display: flex;
+    justify-content: space-between
+}
+
+.guide__content>div>h2 {
+    max-width: 625px;
+}
+
+.guide__content>div>p {
+    padding-right: 120px;
+    margin: 40px 0 85px 0;
+}
+
+.guide__form {
+    display: flex;
+    width: 820px;
+    justify-content: space-between;
+    align-items: end;
+    margin-top: 35px;
+}
+
+.guide__form>div {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.guide__form>div>input {
+    width: 420px;
+    height: 77px;
+}
+
+.guide__form>div>label {
+    color: var(--color-label);
+    margin-bottom: 10px;
+}
+
+.guide__form>button {
+    height: 77px;
+    width: 355px;
+}
+
+.guide__img {
+    position: relative;
+}
+
+.guide__img>img {
+    max-width: 645px;
+}
+
+.guide__img>div {
+    position: absolute;
+    top: 330px;
+    left: 167px;
+    color: var(--color-white);
+}
+
+.guide__img>div>div {
+    font-size: 100px;
+    font-weight: 300;
+    margin: 45px 0 15px 0;
+}
