@@ -1,1 +1,210 @@
-.application {}
+.application {
+    background: url(./../images/expert.webp) no-repeat center center/cover;
+}
+
+
+.application__content {
+    color: var(--color-white);
+    padding-top: 140px;
+    padding-bottom: 125px;
+}
+
+.application__content>p {
+    margin-top: 35px;
+}
+
+.application__block {
+    margin-top: 90px;
+    display: flex;
+}
+
+.application__form {
+    width: 420px;
+}
+
+.application__form>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.application__form>button {
+    margin-top: 40px;
+    width: 100%;
+}
+
+.application__block>div {
+    display: flex;
+    align-items: flex-end;
+    margin-left: 110px;
+}
+
+.application__expert>div {
+    line-height: 0.9 !important;
+}
+
+.application__expert>div>span {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.form-mb {
+    margin-bottom: 20px;
+}
+
+.expert-min {
+    display: none;
+}
+
+@media screen and (max-width:1400px) {
+    .application {
+        background-position-x: 70%;
+        background-position-y: center;
+    }
+
+    .application__content {
+        padding-top: 120px;
+    }
+
+    .application__block {
+        margin-top: 40px;
+    }
+
+    .application__content>p {
+        margin-top: 40px;
+        width: 435px;
+    }
+
+    .application__form {
+        width: 285px;
+    }
+
+    .application__block>div {
+        margin-left: 168px;
+    }
+
+    .application__expert>div {
+        width: 280px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .application {
+        background-position-x: 69%;
+    }
+
+    .application__content {
+        padding-top: 95px;
+    }
+
+    .application__content>p {
+        margin-top: 30px;
+    }
+
+    .application__block {
+        margin-top: 75px;
+    }
+
+    .application__block>div {
+        margin-left: 120px;
+    }
+
+    .application__expert>div {
+        width: 360px;
+        font-size: 30px;
+        line-height: 1 !important;
+    }
+
+    .application__expert>div>span {
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .application {
+        margin-top: 30px;
+    }
+
+    .application__block>div {
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .application {
+        background-position-x: 72%;
+    }
+
+    .application__block {
+        flex-direction: column;
+    }
+
+    .application__block>div {
+        margin: 20px 0 0 0;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .application {
+        background-position-x: 74%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .application {
+        background: url(./../images/expert-min.webp) no-repeat;
+        background-position-x: 0%;
+        background-color: #010244;
+    }
+
+    .application__content {
+        padding-top: 73px;
+        padding-bottom: 50px;
+    }
+
+    .application__content>p {
+        width: auto;
+    }
+
+    .application__form {
+        width: 100%;
+    }
+
+    .application__block {
+        margin-top: 40px;
+    }
+
+    .application__expert {
+
+        border-bottom: 2px solid #001271;
+    }
+
+    .application__expert>div {
+        width: auto;
+        font-size: 24px;
+        line-height: 1 !important;
+        margin-bottom: 175px;
+    }
+
+    .application__content>h2 {
+        margin-top: 50px;
+    }
+
+    .expert-min {
+        display: block;
+    }
+
+    .application__block>div {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .application {
+        background-position-x: 80%;
+    }
+
+    .application__expert {
+        width: 200px;
+    }
+}

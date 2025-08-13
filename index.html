@@ -668,7 +668,7 @@
                 type="hidden"
                 id="titleHiddenData"
                 name="title-mail"
-                value="Получить консультацию"
+                value="Получить pdf"
               />
               <div>
                 <label>Введите ваш номер телефона</label>
@@ -698,13 +698,75 @@
         </div>
       </div>
     </section>
-    <section class="application"></section>
+    <section class="application">
+      <div class="container">
+        <div class="application__content">
+          <div class="application__expert">
+            <div class="font-p" style="font-weight: bold">
+              Айрат Насыбуллин, <br /><span>
+                руководитель<br />
+                направления Hi-END AV</span
+              >
+            </div>
+          </div>
+
+          <h2 class="font-h1">
+            Начните свой путь <br />
+            к идеальному звуку
+          </h2>
+
+          <p class="font-p" style="font-weight: bold">
+            Оставьте заявку на консультацию с аудио инженером
+          </p>
+
+          <div class="application__block">
+            <form class="application__form">
+              <input
+                type="hidden"
+                id="titleHiddenData"
+                name="title-mail"
+                value="Получить консультацию"
+              />
+              <div class="form-mb">
+                <label>Введите ваше имя</label>
+                <input
+                  type="rext"
+                  required
+                  id="name"
+                  name="name"
+                  placeholder="Иванов Александр"
+                />
+              </div>
+              <div>
+                <label>Введите ваш номер телефона</label>
+                <input
+                  type="tel"
+                  required
+                  id="phone"
+                  name="phone"
+                  placeholder="(___) ___-__-__"
+                />
+              </div>
+              <button class="btn-blue">Отправить заявку</button>
+            </form>
+
+            <div class="application__expert">
+              <div class="font-p" style="font-weight: bold">
+                Айрат Насыбуллин, <br /><span>
+                  руководитель направления Hi-END AV</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <div id="footer-placeholder"></div>
   </body>
 
   <script type="module" src="./src/scripts/main.js"></script>
-  <script src="./src/scripts/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="./src/scripts/slider.js"></script>
   <script src="./src/scripts/variables.js"></script>
 

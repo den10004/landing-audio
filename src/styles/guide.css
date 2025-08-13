@@ -52,17 +52,13 @@
 
 .guide__form>div>input {
     width: 420px;
-    height: 77px;
 }
 
 .guide__form>div>label {
     color: var(--color-label);
-    margin-bottom: 10px;
-    font-size: 16px;
 }
 
 .guide__form>button {
-    height: 77px;
     width: 355px;
 }
 
@@ -266,9 +262,5 @@
 
     .guide__form {
         margin-top: 20px;
-    }
-
-    .guide__form>div>label {
-        font-size: 14px;
     }
 }
