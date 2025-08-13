@@ -6,5 +6,5 @@ export default {
     sourcemap: false,
     assetsInlineLimit: 4096,
   },
-  base: "./",
+  base: "/",
 };
