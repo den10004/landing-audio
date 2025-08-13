@@ -3,8 +3,28 @@
 }
 
 .guide__content {
+    display: grid;
+    grid-template-columns: 815px auto;
+    grid-template-rows: 375px auto;
+    grid-row-gap: 90px;
+    justify-content: space-between;
+}
+
+
+.guide__headline {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+
+.guide__pdf {
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+.guide__img {
+    grid-area: 1 / 2 / 3 / 3;
+    position: relative;
     display: flex;
-    justify-content: space-between
+    justify-content: end;
 }
 
 .guide__content>div>h2 {
@@ -13,7 +33,7 @@
 
 .guide__content>div>p {
     padding-right: 120px;
-    margin: 40px 0 85px 0;
+    margin: 40px 0 0 0;
 }
 
 .guide__form {
@@ -38,19 +58,12 @@
 .guide__form>div>label {
     color: var(--color-label);
     margin-bottom: 10px;
+    font-size: 16px;
 }
 
 .guide__form>button {
     height: 77px;
     width: 355px;
-}
-
-.guide__img {
-    position: relative;
-}
-
-.guide__img>img {
-    max-width: 645px;
 }
 
 .guide__img>div {
@@ -64,4 +77,198 @@
     font-size: 100px;
     font-weight: 300;
     margin: 45px 0 15px 0;
+}
+
+
+
+@media screen and (max-width:1700px) {
+
+    .guide__content {
+        display: grid;
+        grid-template-columns: 692px auto;
+        grid-template-rows: 320px auto;
+        grid-row-gap: 77px;
+        justify-content: space-between;
+    }
+
+    .guide {
+        margin-top: 120px;
+
+    }
+
+    .guide__img {
+        margin-top: 140px;
+        justify-content: flex-start;
+    }
+
+    .guide__img>img {
+        max-width: 470px;
+    }
+
+    .guide__content>div>h2 {
+        max-width: 703px;
+    }
+
+    .guide__form {
+        width: 580px;
+    }
+
+    .guide__form>div>input {
+        width: 290px;
+    }
+
+    .guide__form>button {
+        width: 260px;
+    }
+
+    .guide__img>div {
+        top: 130px;
+        left: 67px;
+    }
+
+    .guide__img>div>div {
+        font-size: 70px;
+    }
+
+    .guide__content>div>p {
+        padding-right: 157px;
+        margin: 32px 0 0 0;
+    }
+
+}
+
+@media screen and (max-width:1300px) {
+    .guide {
+        margin-top: 133px;
+    }
+
+    .guide__content {
+        grid-template-columns: 290px 392px;
+        grid-template-rows: auto;
+        row-gap: 85px;
+    }
+
+    .guide__headline {
+        grid-area: 1 / 1 / 2 / 3;
+    }
+
+    .guide__pdf {
+        grid-area: 2 / 1 / 3 / 2;
+    }
+
+    .guide__content>div>p {
+        padding-right: 80px;
+        margin: 25px 0 0 0;
+    }
+
+    .guide__img {
+        grid-area: 2 / 2 / 3 / 3;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .guide__form {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .guide__form>div {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .guide__form>div>input {
+        width: 100%;
+    }
+
+    .guide__form>button {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .guide__img>img {
+        max-width: 100%;
+        height: 400px;
+    }
+
+    .guide__img {
+        margin-top: 0;
+        justify-content: flex-end
+    }
+
+    .guide__img>div {
+        top: 70px;
+    }
+
+    .guide__img>div>div {
+        margin: 27px 0 15px 0;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .guide {
+        margin-top: 60px;
+    }
+
+    .guide__content {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        row-gap: 20px;
+        column-gap: 20px;
+    }
+
+    .guide__img>div>img {
+        width: 56px;
+    }
+
+    .guide__img>img {
+        max-width: 280px;
+    }
+
+
+    .guide__img>div>div {
+        margin: 27px 0 15px 0;
+    }
+
+    .guide__img>div>div {
+        font-size: 56px;
+    }
+
+    .guide__img>div {
+        top: 50px;
+        left: 48px;
+    }
+
+    .guide__img>div>span {
+        font-size: 18px !important;
+    }
+
+    .guide__headline {
+        grid-area: 1 / 1 / 2 / 3;
+    }
+
+    .guide__pdf {
+        grid-area: 3 / 1 / 4 / 2;
+    }
+
+    .guide__img {
+        grid-area: 2 / 1 / 3 / 2;
+    }
+
+    .guide__form>div>input {
+        height: 60px;
+    }
+
+    .guide__form>button {
+        height: 60px;
+    }
+
+    .guide__form {
+        margin-top: 20px;
+    }
+
+    .guide__form>div>label {
+        font-size: 14px;
+    }
 }

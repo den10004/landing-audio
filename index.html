@@ -5,10 +5,7 @@
     <title>Главная</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/src/styles/styles.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
+    <link rel="stylesheet" href="/src/styles/swiper-bundle.min.css" />
   </head>
   <body>
     <main class="main">
@@ -588,12 +585,13 @@
     <section class="warrantye">
       <div>
         <picture>
-          <img src="./src/images/g01.webp" alt="гарантия" />
+          <source media="(max-width: 1300px)" srcset="./src/images/g01.webp" />
           <source
             media="(max-width: 1400px)"
             srcset="./src/images/g01-1400.webp"
           />
-          <source media="(max-width: 1300px)" srcset="./src/images/g01.webp" />
+
+          <img src="./src/images/g01.webp" alt="гарантия" />
         </picture>
 
         <div class="warrantye__content warrantye-margin">
@@ -647,7 +645,7 @@
     <section class="guide">
       <div class="container">
         <div class="guide__content">
-          <div>
+          <div class="guide__headline">
             <h2 class="font-h1">
               Как не ошибиться при выборе домашнего кинотеатра
             </h2>
@@ -656,7 +654,9 @@
               Можно потратить миллионы, выбирая систему, которая не подходит по
               вашему помещению, а звук будет как от дешёвой акустики
             </p>
+          </div>
 
+          <div class="guide__pdf">
             <span
               class="font-p"
               style="font-weight: bold; color: var(--color-blue)"
@@ -703,9 +703,9 @@
     <div id="footer-placeholder"></div>
   </body>
 
-  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-  <script src="./src/scripts/slider.js"></script>
   <script type="module" src="./src/scripts/main.js"></script>
+  <script src="./src/scripts/swiper-bundle.min.js"></script>
+  <script src="./src/scripts/slider.js"></script>
   <script src="./src/scripts/variables.js"></script>
 
   <script>
