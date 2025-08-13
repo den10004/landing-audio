@@ -1,3 +1,61 @@
+header {
+    background: #010244;
+    padding: 85px 0 40px 0;
+}
+
 .header {
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header>li>a>img {
+    width: 100%;
+}
+
+.header>li>a {
+    color: var(--color-white);
+}
+
+
+.header>li:last-child>a {
+    font-weight: bold;
+}
+
+.polytic-min {
+    display: none;
+}
+
+@media screen and (max-width:1400px) {
+
+    .header>li>a>img {
+        width: 260px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    header {
+        padding: 40px 0 40px 0;
+    }
+
+    .header>li>a>img {
+        width: 190px;
+    }
+
+    .header>li:last-child>a {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .header>li>a>img {
+        width: 140px;
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+    .header>li:last-child>a {
+        font-size: 14px;
+    }
 }
