@@ -71,7 +71,7 @@
 
     .application__content>p {
         margin-top: 40px;
-        width: 435px;
+        width: 505px;
     }
 
     .application__form {
@@ -85,6 +85,10 @@
     .application__expert>div {
         width: 280px;
     }
+
+    .application__form>button {
+        margin-top: 40px;
+    }
 }
 
 @media screen and (max-width: 1300px) {
@@ -93,7 +97,8 @@
     }
 
     .application__content {
-        padding-top: 95px;
+        padding-top: 90px;
+        padding-bottom: 105px;
     }
 
     .application__content>p {
@@ -118,6 +123,9 @@
         font-size: 18px;
     }
 
+    .application__form>button {
+        margin-top: 35px;
+    }
 }
 
 @media screen and (max-width: 768px) {

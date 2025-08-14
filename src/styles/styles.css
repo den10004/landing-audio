@@ -149,7 +149,7 @@ picture img {
 input {
   background: var(--color-table);
   border: none;
-  padding-left: 50px;
+  padding-left: 30px;
   font-family: "Roboto", "Arial", sans-serif;
   box-sizing: border-box;
   height: 77px;
