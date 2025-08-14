@@ -10,6 +10,7 @@
 @import "./warrantye.css";
 @import "./guide.css";
 @import "./application.css";
+@import "./thanks.css";
 @import "./footer.css";
 @import "./normalize.css";
 
@@ -46,6 +47,11 @@
   --color-purple: #000043;
 
 
+}
+
+html,
+body {
+  height: 100%;
 }
 
 body {
@@ -166,7 +172,10 @@ label {
   font-weight: 300;
 }
 
-
+.tel-header {
+  font-size: 30px;
+  font-weight: bold;
+}
 
 @media screen and (max-width:1700px) {
   .container {
@@ -192,6 +201,7 @@ label {
   .font-p {
     font-size: 26px;
   }
+
 }
 
 
@@ -207,6 +217,10 @@ label {
 
   .font-h1 {
     font-size: 36px;
+  }
+
+  .tel-header {
+    font-size: 24px;
   }
 }
 
@@ -239,6 +253,7 @@ label {
 
   }
 
+
 }
 
 
@@ -252,6 +267,10 @@ label {
   }
 
   .font-h4 {
+    font-size: 24px;
+  }
+
+  .tel-header {
     font-size: 24px;
   }
 }

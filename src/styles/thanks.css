@@ -1,0 +1,267 @@
+.thanks-layout {
+    background-color: #342483;
+    background-image: url(./../images/thanks.webp);
+    background-position: center;
+    flex: 1;
+}
+
+.thanksBlock {
+    padding: 70px 0px 70px 0px;
+    margin: 0 auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
+
+.thanksBlock>h1 {
+    font-size: 60px;
+    color: var(--color-white);
+    font-weight: bold;
+    line-height: 1.2;
+    margin: 0;
+}
+
+
+.thanksBlock>p {
+    font-size: 30px;
+    color: var(--color-white);
+    line-height: 1.5;
+    margin-top: 5px;
+    font-weight: 300;
+}
+
+.timetable {
+    border-radius: 5px;
+    width: 636px;
+    height: auto;
+    margin: 100px auto 0 auto;
+    box-sizing: border-box;
+}
+
+.timetable>h5 {
+    color: var(--color-white);
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.timetable>p {
+    color: var(--color-white);
+    font-size: 28px;
+    line-height: 0.917;
+    margin-top: 40px;
+}
+
+.timetable>p>span {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+
+.timetable__days {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 436px;
+    margin-top: 30px;
+
+}
+
+.timetable__days>div {
+    width: 70px;
+    height: 70px;
+    border: 1px solid #c78eff;
+    color: var(--color-white);
+    border-radius: 5px;
+    font-size: 30px;
+    line-height: 2.1;
+}
+
+.timetable__span {
+    font-size: 18px;
+    color: var(--color-white);
+    line-height: 1.333;
+    text-align: center;
+    max-width: 500px;
+    margin: 30px auto 0 auto;
+}
+
+
+
+#output {
+    color: rgb(255, 255, 255);
+}
+
+
+@media screen and (max-width: 1500px) {
+    .thanksBlock>h1 {
+        font-size: 45px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .timetable {
+        margin: 75px auto 75px auto;
+    }
+
+    .thanksBlock {
+        padding: 25px 0px 0px 0px;
+    }
+
+    .thanksBlock>p {
+        margin-top: 0px;
+    }
+
+    .timetable>h5 {
+        font-size: 24px;
+    }
+
+    .timetable>p {
+        margin-top: 30px;
+    }
+
+    .timetable>p>span {
+        font-size: 42px;
+    }
+
+    .timetable__days {
+        width: 362px;
+        margin-top: 25px;
+    }
+
+    .timetable__days>div {
+        width: 63px;
+        height: 63px;
+    }
+
+    .timetable__span {
+        font-size: 14px;
+        margin: 25px auto 0 auto
+    }
+
+}
+
+
+@media screen and (max-width: 1300px) {
+    .thanksBlock {
+        padding: 60px 0px 60px 0px;
+    }
+
+    .thanksBlock>h1 {
+        font-size: 48px;
+    }
+
+    .thanksBlock>p {
+        font-size: 20px;
+    }
+
+    .thanksBlock>h1>br {
+        display: block;
+    }
+
+    .timetable {
+        width: 100%;
+    }
+
+    .timetable {
+        margin: 95px auto 0 auto;
+    }
+
+    .timetable>p {
+        margin-top: 24px;
+        font-weight: 300;
+    }
+
+    .timetable>h5 {
+        font-size: 20px;
+    }
+
+    .timetable>p>span {
+        font-weight: 300;
+    }
+
+    .timetable__span {
+        margin: 17px auto 0 auto;
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    .thanksBlock>h1 {
+        font-size: 44px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .timetable__days {
+        width: 300px;
+    }
+
+    .timetable__days>div {
+        width: 45px;
+        height: 45px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .thanksBlock>h1 {
+        font-size: 26px;
+        margin-top: 40px;
+    }
+
+    .timetable>p>span {
+        font-size: 24px;
+    }
+
+    .timetable>p {
+        font-size: 24px;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .thanks-layout {
+        background-image: url(./../images/thanks-min.webp);
+
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .timetable__days {
+        max-width: 260px;
+        margin-top: 10px;
+    }
+
+    .thanksBlock>p {
+        font-size: 16px;
+        margin-top: 30px;
+    }
+
+    .timetable {
+        margin: 70px auto 0 auto;
+    }
+
+    .timetable>h5 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .timetable>p>span {
+        font-size: 20px;
+    }
+
+    .timetable__span {
+        margin-top: 25px;
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width: 360px) {
+    .timetable {
+        margin: 40px auto 0 auto;
+    }
+}
