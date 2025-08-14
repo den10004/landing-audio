@@ -188,6 +188,10 @@ label {
   button {
     font-size: 18px;
   }
+
+  .font-p {
+    font-size: 26px;
+  }
 }
 
 
@@ -203,10 +207,6 @@ label {
 
   .font-h1 {
     font-size: 36px;
-  }
-
-  .font-p {
-    font-size: 26px;
   }
 }
 
