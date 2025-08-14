@@ -138,6 +138,13 @@
     }
 }
 
+@media screen and (max-width: 768px) {
+    .comments__card-text {
+        font-size: 20px;
+        line-height: 1.5;
+    }
+}
+
 @media screen and (max-width: 500px) {
     .comments {
         margin-top: 50px;
