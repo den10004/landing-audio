@@ -98,7 +98,9 @@
     }
 
     .main>div>p {
-        max-width: 357px;
+        max-width: 424px;
+        font-size: 20px !important;
+        line-height: 1.5;
     }
 
     .main__logo>#phoneLink {

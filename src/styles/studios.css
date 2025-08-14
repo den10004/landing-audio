@@ -53,7 +53,7 @@
     .studios__block {
         margin-top: 63px;
         width: 743px;
-        grid-row-gap: 20px;
+        grid-row-gap: 30px;
     }
 
     .studios>h2 {
@@ -101,12 +101,26 @@
 
 }
 
-@media screen and (max-width: 335px) {
+@media screen and (max-width: 340px) {
     .studios__block {
-        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(145px, 1fr));
+        grid-column-gap: 10px;
     }
 
     .studios__card {
-        width: 120px;
+        width: 145px;
+    }
+}
+
+
+
+@media screen and (max-width: 339px) {
+    .studios__block {
+        grid-template-columns: repeat(auto-fit, minmax(135px, 1fr));
+        grid-column-gap: 10px;
+    }
+
+    .studios__card {
+        width: 135px;
     }
 }

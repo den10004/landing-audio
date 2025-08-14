@@ -41,7 +41,7 @@
     }
 
     .sound-down {
-        margin-top: 16px;
+        margin-top: 22px;
     }
 
     .sound>p {
@@ -65,7 +65,7 @@
 
 @media screen and (max-width: 1300px) {
     .sound {
-        margin-top: 134px;
+        margin-top: 105px;
     }
 
     .oscar-statue {
@@ -83,7 +83,7 @@
     }
 
     .sound>p {
-        margin-top: 24px;
+        margin-top: 30px;
     }
 }
 
@@ -111,7 +111,7 @@
 
 @media screen and (max-width: 500px) {
     .sound {
-        margin-top: 62px;
+        margin-top: 37px;
     }
 
     .oscar-statue {
@@ -120,6 +120,8 @@
 
     .sound>p {
         width: 100%;
+        font-size: 16px !important;
+        line-height: 1.5;
     }
 
     .sound>p>br {
@@ -128,10 +130,6 @@
 
     .sound-down {
         margin-top: 2px;
-    }
-
-    .sound>p {
-        font-size: 15px !important;
     }
 }
 

@@ -13,13 +13,10 @@ document.addEventListener("DOMContentLoaded", () => {
       320: {
         slidesPerView: 1,
       },
-      400: {
-        slidesPerView: 1.5,
-      },
       425: {
         slidesPerView: 2,
       },
-      1300: {
+      1000: {
         slidesPerView: 3,
       },
       1400: {
