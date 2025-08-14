@@ -11,6 +11,7 @@
 @import "./guide.css";
 @import "./application.css";
 @import "./thanks.css";
+@import "./modal.css";
 @import "./footer.css";
 @import "./normalize.css";
 
@@ -132,11 +133,31 @@ button {
   height: 77px;
 }
 
+.btn-blue:hover {
+  background-color: var(--color-blueHover);
+}
+
+.btn-blue:active {
+  background-color: var(--color-blueActive);
+}
+
 .btn-white {
   color: var(--color-blue);
   border: 1px solid var(--color-blue);
   background-color: var(--color-white);
   height: 77px;
+}
+
+.btn-white:hover {
+  background-color: var(--color-blueHover);
+  color: var(--color-white);
+  border: none;
+}
+
+.btn-white:active {
+  background-color: var(--color-blueActive);
+  color: var(--color-white);
+  border: none;
 }
 
 
