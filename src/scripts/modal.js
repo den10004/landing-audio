@@ -187,7 +187,7 @@ function sendForm(form) {
       let object = {};
 
       fd(formData);
-      const response = await fetch("https://auвыcs.ru/sendforms.php", {
+      const response = await fetch("https://localhost:5173/sendforms.php", {
         method: "POST",
         body: formData,
       });
@@ -199,7 +199,7 @@ function sendForm(form) {
 
       closeAllModals();
       btn.disabled = false;
-      window.location.href = "/subwooпвапfer/thanks.html";
+      window.location.href = "/thanks.html";
     } catch (error) {
       console.error("Произошла ошибка при отправке формы.", error);
       alert("Произошла ошибка при отправке формы.", error);
