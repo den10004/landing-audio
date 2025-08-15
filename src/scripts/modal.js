@@ -26,9 +26,9 @@ function openModalFunc(title, btn, sub) {
     hiddenInputMail2.value = sub;
   }
   modalTitle.innerHTML = title;
-  //  btnMark.textContent = btn;
+  //btnMark.textContent = btn;
   const form = document.getElementById("consultForm");
-  //  sendForm(form);
+  alert(form);
 }
 
 openConsultation.forEach((el) =>
