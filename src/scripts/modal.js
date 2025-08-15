@@ -28,7 +28,6 @@ function openModalFunc(title, btn, sub) {
   modalTitle.innerHTML = title;
   //btnMark.textContent = btn;
   const form = document.getElementById("consultForm");
-  alert(form);
 }
 
 openConsultation.forEach((el) =>
